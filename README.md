@@ -1,5 +1,6 @@
 # Polcolan-retos
 
+## Semana 1
 1. Leer 10 números e imprimir la suma.
 2. Leer 10 números e imprimir la suma de los pares e impares.
 3. Ingresar 20 números y calcular el promedio de los números.
