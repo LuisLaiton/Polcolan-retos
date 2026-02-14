@@ -8,5 +8,4 @@ for (let i = 0; i < 10; i++) {
     }
 }
 
-alert("La suma PAR es: " + sumaPar);
-alert("La suma IMPAR es: " + sumaImpar);
+alert("La suma PAR es: " + sumaPar + "\nLa suma IMPAR es: " + sumaImpar);
