@@ -6,6 +6,8 @@ https://luislaiton.github.io/Polcolan-retos/
 1. Leer 10 números e imprimir la suma.
 2. Leer 10 números e imprimir la suma de los pares e impares.
 3. Ingresar 20 números y calcular el promedio de los números.
+
+## Semana 2
 4. Calcular el área de un círculo.
 5. Calcular el área de un cuadrado.
 6. Imprimir “Hola mundo” 500 veces
