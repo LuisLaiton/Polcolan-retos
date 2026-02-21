@@ -4,4 +4,4 @@ for (let i = 0; i < 10; i++) {
     suma += num;
 }
 
-alert("La suma es: " + suma);
+console.log("La suma es: " + suma);
