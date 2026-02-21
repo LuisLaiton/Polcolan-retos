@@ -1,3 +1,8 @@
+/*
+ * Semana 2
+ * Calcular el área de un círculo.
+ */
+
 let area = 0, r = 0;
 const pi = Math.PI;
 

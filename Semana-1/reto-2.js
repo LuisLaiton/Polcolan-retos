@@ -1,3 +1,8 @@
+/*
+ * Semana 1
+ * Leer 10 números e imprimir la suma de los pares e impares.
+ */
+
 let num = 0, sumaPar = 0, sumaImpar = 0;
 for (let i = 0; i < 10; i++) {
     num = Number(prompt("Ingrese el valor del campo " + (i + 1)));
