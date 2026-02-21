@@ -5,3 +5,4 @@ for (let i = 0; i < 10; i++) {
 }
 
 console.log("La suma es: " + suma);
+alert("La suma es: " + suma);

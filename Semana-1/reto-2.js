@@ -9,3 +9,4 @@ for (let i = 0; i < 10; i++) {
 }
 
 alert("La suma PAR es: " + sumaPar + "\nLa suma IMPAR es: " + sumaImpar);
+console.log("La suma PAR es: " + sumaPar + "\nLa suma IMPAR es: " + sumaImpar);
