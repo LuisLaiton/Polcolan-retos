@@ -11,51 +11,77 @@
 </head>
 
 <body>
-    <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Reto 1</h5>
-                        <p class="card-text">Leer 10 números e imprimir la suma.</p>
-                        <button id="btn1" class="btn btn-primary">Ejecutar</nutton>
+    <header class="px-5 pt-5">
+        <h1>Retos Polcolan</h1>
+        <a href="https://luislaiton.github.io/Polcolan-retos/">Repositorio GitHub</a>
+    </header>
+    <hr>
+    <main class="container">
+        <section>
+            <h2 class="pt-5 pb-3">Enunciados</h2>
+            <ol>
+            <h3>Semana 1</h3>
+                <li>Leer 10 números e imprimir la suma.</li>
+                <li>Leer 10 números e imprimir la suma de los pares e impares.</li>
+                <li>Ingresar 20 números y calcular el promedio de los números.</li>
+            <h3 class="pt-3">Semana 2</h3>
+                <li>Calcular el área de un círculo.</li>
+                <li>Calcular el área de un cuadrado.</li>
+                <li>Imprimir “Hola mundo” 500 veces</li>
+                <li>Adivinar un número, el programa genera un número aleatorio del 1 al 100, el usuario debe ingresar números y va validando por cada número si es mayor o menor al número que se debe adivinar, el programa debe permitir máximo 10 intentos y terminará al momento de hallar el número a adivinar con un mensaje de éxito y si se ingresan los 10 números máximos debe mostrar el número seleccionado por el sistema.</li>
+                <li>El programa debe pedir el número de elementos que se van a ingresar, después debe ingresar número por número y debe ir contando los números mayores a cero, números menores a cero e iguales a cero, debe mostrar cuántos números se ingresaron según las condiciones dadas.</li>
+                <li>Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 5). A continuación debe mostrar todas las notas y promedio.</li>
+                <li>Crear un vector de 5 elementos string, inicialice el vector con datos leídos por el teclado. Copie los elementos del vector en otro vector, pero en orden inverso y muéstrelo por la pantalla</li>
+            </ol>
+        </section>
+        <hr>
+        <section class="container my-5">
+            <h2 class="py-3">Resultados</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Reto 1</h5>
+                            <p class="card-text">Leer 10 números e imprimir la suma.</p>
+                            <button id="btn1" class="btn btn-primary">Ejecutar</nutton>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Reto 2</h5>
+                            <p class="card-text">Leer 10 números e imprimir la suma de los pares e impares.</p>
+                            <button id="btn2" class="btn btn-primary">Ejecutar</nutton>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Reto 3</h5>
+                            <p class="card-text">Ingresar 20 números y calcular el promedio de los números.</p>
+                            <button id="btn3" class="btn btn-primary">Ejecutar</nutton>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Reto 4</h5>
+                            <p class="card-text">Calcular el área de un círculo.</p>
+                            <button id="btn4" class="btn btn-primary">Ejecutar</nutton>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Reto 2</h5>
-                        <p class="card-text">Leer 10 números e imprimir la suma de los pares e impares.</p>
-                        <button id="btn2" class="btn btn-primary">Ejecutar</nutton>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Reto 3</h5>
-                        <p class="card-text">Ingresar 20 números y calcular el promedio de los números.</p>
-                        <button id="btn3" class="btn btn-primary">Ejecutar</nutton>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Reto 4</h5>
-                        <p class="card-text">Calcular el área de un círculo.</p>
-                        <button id="btn4" class="btn btn-primary">Ejecutar</nutton>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
-        <script src="ejecucion.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    <script src="ejecucion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
