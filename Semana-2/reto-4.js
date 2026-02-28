@@ -3,12 +3,16 @@
  * Calcular el área de un círculo.
  */
 
-let area = 0, r = 0;
-const pi = Math.PI;
+function ejecutarReto() {
+    let area = 0, r = 0;
+    const pi = Math.PI;
 
-r = Number(prompt("Ingrese el radio del circulo"));
+    r = Number(prompt("Ingrese el radio del circulo"));
 
-area = pi * Math.pow(r, 2);
+    area = pi * Math.pow(r, 2);
 
-alert("El area es " + area);
-console.log("El area es " + area);
+    alert("El area es " + area);
+    console.log("El area es " + area);
+}
+
+ejecutarReto();
