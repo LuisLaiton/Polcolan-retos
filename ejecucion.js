@@ -38,6 +38,26 @@ document.getElementById("btn10").addEventListener("click", () => {
     cargarArchivo("Semana-2/reto-10.js");
 });
 
+document.getElementById("btn11").addEventListener("click", () => {
+    cargarArchivo("Semana-3/reto-11.js");
+});
+
+document.getElementById("btn12").addEventListener("click", () => {
+    cargarArchivo("Semana-3/reto-12.js");
+});
+
+document.getElementById("btn13").addEventListener("click", () => {
+    cargarArchivo("Semana-3/reto-13.js");
+});
+
+document.getElementById("btn14").addEventListener("click", () => {
+    cargarArchivo("Semana-3/reto-14.js");
+});
+
+document.getElementById("btn15").addEventListener("click", () => {
+    cargarArchivo("Semana-3/reto-15.js");
+});
+
 function cargarArchivo(ruta) {
     const scriptExistente = document.querySelector("#script-dinamico");
     if (scriptExistente) {
