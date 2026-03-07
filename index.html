@@ -17,177 +17,482 @@
     </header>
     <hr>
     <main class="container">
-        <section>
-            <h2 class="pt-5 pb-3">Enunciados</h2>
-            <ol>
-            <h3>Semana 1</h3>
-                <li>Leer 10 números e imprimir la suma.</li>
-                <li>Leer 10 números e imprimir la suma de los pares e impares.</li>
-                <li>Ingresar 20 números y calcular el promedio de los números.</li>
-            <h3 class="pt-3">Semana 2</h3>
-                <li>Calcular el área de un círculo.</li>
-                <li>Calcular el área de un cuadrado.</li>
-                <li>Imprimir “Hola mundo” 500 veces</li>
-                <li>Adivinar un número, el programa genera un número aleatorio del 1 al 100, el usuario debe ingresar números y va validando por cada número si es mayor o menor al número que se debe adivinar, el programa debe permitir máximo 10 intentos y terminará al momento de hallar el número a adivinar con un mensaje de éxito y si se ingresan los 10 números máximos debe mostrar el número seleccionado por el sistema.</li>
-                <li>El programa debe pedir el número de elementos que se van a ingresar, después debe ingresar número por número y debe ir contando los números mayores a cero, números menores a cero e iguales a cero, debe mostrar cuántos números se ingresaron según las condiciones dadas.</li>
-                <li>Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 5). A continuación debe mostrar todas las notas y promedio.</li>
-                <li>Crear un vector de 5 elementos string, inicialice el vector con datos leídos por el teclado. Copie los elementos del vector en otro vector, pero en orden inverso y muéstrelo por la pantalla</li>
-            <h3 class="pt-3">Semana 3</h3>
-                <li>Crear un arreglo unidimensional con un tamaño de 5, asignar los valores numéricos manualmente (los que quiera) y mostrarlos por pantalla.</li>
-                <li>Crear un array con 5 posiciones y crear una función que rellene el array o arreglo con los múltiplos de un número pedido por teclado, por ejemplo, elije un 3 en la función, el array contendrá 3, 6, 9, 12, 15. Mostrarlos por pantalla usando otra función distinta.</li>
-                <li>Un organizador de eventos culturales necesita verificar si las personas pueden entrar a un concierto. Cada asistente registra su nombre y edad. Si es mayor o igual a 18 años, se le da acceso, de lo contrario se le rechaza. Cree una función que reciba los datos, use condicionales para validar la edad y muestre un mensaje en consola indicando si la persona puede ingresar, el proceso debe realizarse constantemente de forma indefinida.</li>
-                <li>En una clase, un estudiante tiene varias calificaciones de 0 a 5. Se desea guardar las notas en un arreglo, recorrerlo con un bucle, calcular el promedio y mostrar si aprueba o no la materia (aprueba con nota mayor o igual a 3.0). El programa debe declarar variables para las notas, procesarlas con un bucle y usar una condición para dar el resultado final.</li>
-                <li>Un usuario quiere comprar productos en una tienda virtual. Cada producto tiene un nombre y un precio, que deben almacenarse en un objeto dentro de un arreglo de productos. El programa debe recorrer el carrito con un bucle, sumar los precios y mostrar el total a pagar. Como extra, si el total supera $100.000, aplique un 10% de descuento y muestre el valor final.</li>
-            </ol>
-        </section>
-        <hr>
         <section class="container my-5">
-            <h2 class="py-3">Resultados</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 1</h5>
-                            <p class="card-text">Leer 10 números e imprimir la suma.</p>
-                            <button id="btn1" class="btn btn-primary">Ejecutar</button>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <!-- Semana 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <h2>Semana 1</h2>
+                        </button>
+                    </h2>
+                    <!-- Resultados semana 1 -->
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                        <div class="accordion-body row row-cols-1 row-cols-md-3 g-4">
+                            <!-- Reto 1 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 1</h5>
+                                        <p class="card-text">Leer 10 números e imprimir la suma.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-1/reto-1.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 2 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 2</h5>
+                                        <p class="card-text">Leer 10 números e imprimir la suma de los pares e
+                                            impares.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-1/reto-2.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 3 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 3</h5>
+                                        <p class="card-text">Ingresar 20 números y calcular el promedio de los
+                                            números.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-1/reto-3.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 2</h5>
-                            <p class="card-text">Leer 10 números e imprimir la suma de los pares e impares.</p>
-                            <button id="btn2" class="btn btn-primary">Ejecutar</button>
+                <!-- Semana 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <h2>Semana 2 </h2>
+                        </button>
+                    </h2>
+                    <!-- Resultados semana 2 -->
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body row row-cols-1 row-cols-md-3 g-4">
+                            <!-- Reto 4 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 4</h5>
+                                        <p class="card-text">Calcular el área de un círculo.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-4.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 5 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 5</h5>
+                                        <p class="card-text">Calcular el área de un cuadrado.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-5.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 6 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 6</h5>
+                                        <p class="card-text">Imprimir “Hola mundo” 500 veces.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-6.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 7 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 7</h5>
+                                        <p class="card-text">Adivinar un número, el programa genera un número aleatorio
+                                            del 1 al 100, el usuario debe ingresar números y va validando por cada
+                                            número si es mayor o menor al número que se debe adivinar, el programa debe
+                                            permitir máximo 10 intentos y terminará al momento de hallar el número a
+                                            adivinar con un mensaje de éxito y si se ingresan los 10 números máximos
+                                            debe mostrar el número seleccionado por el sistema.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-7.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 8 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 8</h5>
+                                        <p class="card-text">El programa debe pedir el número de elementos que se van a
+                                            ingresar, después debe ingresar número por número y debe ir contando los
+                                            números mayores a cero, números menores a cero e iguales a cero, debe
+                                            mostrar cuántos números se ingresaron según las condiciones dadas.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-8.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 9 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 9</h5>
+                                        <p class="card-text">Se quiere realizar un programa que lea por teclado las 5
+                                            notas obtenidas por un alumno (comprendidas entre 0 y 5). A continuación
+                                            debe mostrar todas las notas y promedio.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-9.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 10 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 10</h5>
+                                        <p class="card-text">Crear un vector de 5 elementos string, inicialice el vector
+                                            con datos leídos por el teclado. Copie los elementos del vector en otro
+                                            vector, pero en orden inverso y muéstrelo por la pantalla.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-2/reto-10.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 3</h5>
-                            <p class="card-text">Ingresar 20 números y calcular el promedio de los números.</p>
-                            <button id="btn3" class="btn btn-primary">Ejecutar</button>
+                <!-- Semana 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <h2>Semana 3 </h2>
+                        </button>
+                    </h2>
+                    <!-- Resultados semana 3 -->
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body row row-cols-1 row-cols-md-3 g-4">
+                            <!-- Reto 11 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 11</h5>
+                                        <p class="card-text">Crear un arreglo unidimensional con un tamaño de 5, asignar
+                                            los valores numéricos manualmente (los que quiera) y mostrarlos por
+                                            pantalla.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-3/reto-11.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 12 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 12</h5>
+                                        <p class="card-text">Crear un array con 5 posiciones y crear una función que
+                                            rellene el array o arreglo con los múltiplos de un número pedido por
+                                            teclado, por ejemplo, elije un 3 en la función, el array contendrá 3, 6, 9,
+                                            12, 15. Mostrarlos por pantalla usando otra función distinta.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-3/reto-12.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 13 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 13</h5>
+                                        <p class="card-text">Un organizador de eventos culturales necesita verificar si
+                                            las personas pueden entrar a un concierto. Cada asistente registra su nombre
+                                            y edad. Si es mayor o igual a 18 años, se le da acceso, de lo contrario se
+                                            le rechaza. Cree una función que reciba los datos, use condicionales para
+                                            validar la edad y muestre un mensaje en consola indicando si la persona
+                                            puede ingresar, el proceso debe realizarse constantemente de forma
+                                            indefinida.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-3/reto-12.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 14 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 14</h5>
+                                        <p class="card-text">En una clase, un estudiante tiene varias calificaciones de
+                                            0 a 5. Se desea guardar las notas en un arreglo, recorrerlo con un bucle,
+                                            calcular el promedio y mostrar si aprueba o no la materia (aprueba con nota
+                                            mayor o igual a 3.0).El programa debe declarar variables para las notas,
+                                            procesarlas con un bucle y usar una condición para dar el resultado final.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-3/reto-12.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 15 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 15</h5>
+                                        <p class="card-text">Un usuario quiere comprar productos en una tienda virtual.
+                                            Cada producto tiene un nombre y un precio, que deben almacenarse en un
+                                            objeto dentro de un arreglo de productos. El programa debe recorrer el
+                                            carrito con un bucle, sumar los precios y mostrar el total a pagar. Como
+                                            extra, si el total supera $100.000, aplique un 10% de descuento y muestre el
+                                            valor final.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-3/reto-12.js">
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 4</h5>
-                            <p class="card-text">Calcular el área de un círculo.</p>
-                            <button id="btn4" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 5</h5>
-                            <p class="card-text">Calcular el área de un cuadrado.</p>
-                            <button id="btn5" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 6</h5>
-                            <p class="card-text">Imprimir “Hola mundo” 500 veces.</p>
-                            <button id="btn6" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 7</h5>
-                            <p class="card-text">Adivinar un número, el programa genera un número aleatorio del 1 al 100, 
-                                el usuario debe ingresar números y va validando por cada número si es mayor 
-                                o menor al número que se debe adivinar, el programa debe permitir máximo 10 
-                                intentos y terminará al momento de hallar el número a adivinar con un mensaje 
-                                de éxito y si se ingresan los 10 números máximos debe mostrar el número 
-                                seleccionado por el sistema.</p>
-                            <button id="btn7" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 8</h5>
-                            <p class="card-text">El programa debe pedir el número de elementos que se van a ingresar, 
-                                después debe ingresar número por número y debe ir contando los números 
-                                mayores a cero, números menores a cero e iguales a cero, debe mostrar 
-                                cuántos números se ingresaron según las condiciones dadas.</p>
-                            <button id="btn8" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 9</h5>
-                            <p class="card-text">Se quiere realizar un programa que lea por teclado las 5 notas 
-                                obtenidas por un alumno (comprendidas entre 0 y 5). A continuación 
-                                debe mostrar todas las notas y promedio.</p>
-                            <button id="btn9" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 10</h5>
-                            <p class="card-text">Crear un vector de 5 elementos string, inicialice el vector 
-                                con datos leídos por el teclado. Copie los elementos del vector 
-                                en otro vector, pero en orden inverso y muéstrelo por la pantalla.</p>
-                            <button id="btn10" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 11</h5>
-                            <p class="card-text">Crear un arreglo unidimensional con un tamaño de 5, asignar los valores numéricos manualmente (los que quiera) y mostrarlos por pantalla.</p>
-                            <button id="btn11" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 12</h5>
-                            <p class="card-text">Crear un array con 5 posiciones y crear una función que rellene el array o arreglo con los múltiplos de un número pedido por teclado, por ejemplo, elije un 3 en la función, el array contendrá 3, 6, 9, 12, 15. Mostrarlos por pantalla usando otra función distinta.</p>
-                            <button id="btn12" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 13</h5>
-                            <p class="card-text">Un organizador de eventos culturales necesita verificar si las personas pueden entrar a un concierto. Cada asistente registra su nombre y edad. Si es mayor o igual a 18 años, se le da acceso, de lo contrario se le rechaza. Cree una función que reciba los datos, use condicionales para validar la edad y muestre un mensaje en consola indicando si la persona puede ingresar, el proceso debe realizarse constantemente de forma indefinida.</p>
-                            <button id="btn13" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 14</h5>
-                            <p class="card-text">En una clase, un estudiante tiene varias calificaciones de 0 a 5. Se desea guardar las notas en un arreglo, recorrerlo con un bucle, calcular el promedio y mostrar si aprueba o no la materia (aprueba con nota mayor o igual a 3.0). El programa debe declarar variables para las notas, procesarlas con un bucle y usar una condición para dar el resultado final.</p>
-                            <button id="btn14" class="btn btn-primary">Ejecutar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Reto 15</h5>
-                            <p class="card-text">Un usuario quiere comprar productos en una tienda virtual. Cada producto tiene un nombre y un precio, que deben almacenarse en un objeto dentro de un arreglo de productos. El programa debe recorrer el carrito con un bucle, sumar los precios y mostrar el total a pagar. Como extra, si el total supera $100.000, aplique un 10% de descuento y muestre el valor final.</p>
-                            <button id="btn15" class="btn btn-primary">Ejecutar</button>
+                <!-- Semana 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <h2>Semana 4</h2>
+                        </button>
+                    </h2>
+                    <!-- Resultados semana 4 -->
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                        <div class="accordion-body row row-cols-1 row-cols-md-3 g-4">
+                            <!-- Reto 16 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 16</h5>
+                                        <p class="card-text">Una estación meteorológica desea analizar las temperaturas
+                                            registradas durante varios días. El sistema debe permitir ingresar 14
+                                            temperaturas correspondientes a dos semanas de registro.
+                                            <br>
+                                            El programa debe almacenar las temperaturas en un arreglo y luego:
+                                        <ul>
+                                            <li>Mostrar todas las temperaturas registradas.</li>
+                                            <li>Calcular la temperatura promedio.</li>
+                                            <li>Indicar cuál fue la temperatura más alta.</li>
+                                            <li>Indicar cuál fue la temperatura más baja.</li>
+                                            <li>Mostrar cuántos días la temperatura fue mayor a 30 grados.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-4/reto-16.js" disabled>
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 17 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 17</h5>
+                                        <p class="card-text">Una tienda desea analizar las ventas realizadas durante el
+                                            día. El sistema debe permitir registrar el valor de 12 ventas realizadas.
+                                            <br>
+                                            El programa debe almacenar los valores en un arreglo y luego:
+                                        <ul>
+                                            <li>Mostrar el valor total vendido en el día.</li>
+                                            <li>Mostrar el valor promedio de las ventas.</li>
+                                            <li>Indicar cuál fue la venta más alta.</li>
+                                            <li>Indicar cuál fue la temperatura más baja.</li>
+                                            <li>Indicar cuántas ventas fueron superiores a $50.000.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-4/reto-17.js" disabled>
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 18 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 18</h5>
+                                        <p class="card-text">En un evento comunitario se registran las edades de los
+                                            asistentes para analizar la participación de diferentes grupos de edad.
+                                            <br>
+                                            El programa debe solicitar 15 edades y almacenarlas en un arreglo. Luego
+                                            debe:
+                                        <ul>
+                                            <li>Mostrar todas las edades registradas.</li>
+                                            <li>Contar cuántas personas son menores de edad.</li>
+                                            <li>Contar cuántas personas son mayores de edad.</li>
+                                            <li>Indicar cuántas personas tienen más de 60 años.</li>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-4/reto-18.js" disabled>
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 19 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 19</h5>
+                                        <p class="card-text">En un curso se desea guardar en un arreglo los nombres de
+                                            los estudiantes que asisten a clase. El programa debe preguntar por un
+                                            nombre, verificar con un bucle y una condición si está en la lista, y
+                                            mostrar un mensaje indicando si el estudiante asistió o no. Use funciones
+                                            para encapsular la lógica de búsqueda y devolución del mensaje.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-4/reto-19.js" disabled>
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reto 20 -->
+                            <div class="col">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reto 20</h5>
+                                        <p class="card-text">Un estudiante desea organizar su agenda de contactos en el
+                                            celular. Cada contacto se debe guardar como un objeto con los atributos:
+                                            nombre, número de teléfono y correo electrónico. El programa debe almacenar
+                                            varios contactos en un arreglo, recorrerlos con un bucle y mostrar solo
+                                            aquellos que tengan correo electrónico con dominio @gmail.com.</p>
+                                    </div>
+                                    <div class="card-footer bg-transparent border-primary">
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-outline-primary ejecutar"
+                                                data-script="Semana-4/reto-20.js" disabled>
+                                                Ejecutar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

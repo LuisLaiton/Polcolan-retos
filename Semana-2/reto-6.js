@@ -9,6 +9,7 @@ function ejecutarReto() {
         console.log("Hola mundo");
         i++;
     }
+    alert("Resultado mostrado por consola");
 }
 
 ejecutarReto();

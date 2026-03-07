@@ -1,3 +1,4 @@
+/*
 document.getElementById("btn1").addEventListener("click", () => {
     cargarArchivo("Semana-1/reto-1.js");
 });
@@ -56,6 +57,13 @@ document.getElementById("btn14").addEventListener("click", () => {
 
 document.getElementById("btn15").addEventListener("click", () => {
     cargarArchivo("Semana-3/reto-15.js");
+});
+*/
+
+document.querySelectorAll(".ejecutar").forEach(boton => {
+    boton.addEventListener("click", () => {
+        cargarArchivo(boton.dataset.script);
+    });
 });
 
 function cargarArchivo(ruta) {
