@@ -21,7 +21,26 @@ https://luislaiton.github.io/Polcolan-retos/
 13. Un organizador de eventos culturales necesita verificar si las personas pueden entrar a un concierto. Cada asistente registra su nombre y edad. Si es mayor o igual a 18 años, se le da acceso, de lo contrario se le rechaza. Cree una función que reciba los datos, use condicionales para validar la edad y muestre un mensaje en consola indicando si la persona puede ingresar, el proceso debe realizarse constantemente de forma indefinida.
 14. En una clase, un estudiante tiene varias calificaciones de 0 a 5. Se desea guardar las notas en un arreglo, recorrerlo con un bucle, calcular el promedio y mostrar si aprueba o no la materia (aprueba con nota mayor o igual a 3.0). El programa debe declarar variables para las notas, procesarlas con un bucle y usar una condición para dar el resultado final.
 15. Un usuario quiere comprar productos en una tienda virtual. Cada producto tiene un nombre y un precio, que deben almacenarse en un objeto dentro de un arreglo de productos. El programa debe recorrer el carrito con un bucle, sumar los precios y mostrar el total a pagar. Como extra, si el total supera $100.000, aplique un 10% de descuento y muestre el valor final.
-
+## Semana 4
+16. Una estación meteorológica desea analizar las temperaturas registradas durante varios días. El sistema debe permitir ingresar 14 temperaturas correspondientes a dos semanas de registro. El programa debe almacenar las temperaturas en un arreglo y luego:
+    - Mostrar todas las temperaturas registradas.
+    - Calcular la temperatura promedio.
+    - Indicar cuál fue la temperatura más alta.
+    - Indicar cuál fue la temperatura más baja.
+    - Mostrar cuántos días la temperatura fue mayor a 30 grados.
+17. Una tienda desea analizar las ventas realizadas durante el día. El sistema debe permitir registrar el valor de 12 ventas realizadas. El programa debe almacenar los valores en un arreglo y luego:
+    - Mostrar el valor total vendido en el día.
+    - Mostrar el valor promedio de las ventas.
+    - Indicar cuál fue la venta más alta.
+    - Indicar cuál fue la temperatura más baja.
+    - Indicar cuántas ventas fueron superiores a $50.000.
+18. En un evento comunitario se registran las edades de los asistentes para analizar la participación de diferentes grupos de edad. El programa debe solicitar 15 edades y almacenarlas en un arreglo. Luego debe:
+    - Mostrar todas las edades registradas.
+    - Contar cuántas personas son menores de edad.
+    - Contar cuántas personas son mayores de edad.
+    - Indicar cuántas personas tienen más de 60 años.
+19. En un curso se desea guardar en un arreglo los nombres de los estudiantes que asisten a clase. El programa debe preguntar por un nombre, verificar con un bucle y una condición si está en la lista, y mostrar un mensaje indicando si el estudiante asistió o no. Use funciones para encapsular la lógica de búsqueda y devolución del mensaje.
+20. Un estudiante desea organizar su agenda de contactos en el celular. Cada contacto se debe guardar como un objeto con los atributos: nombre, número de teléfono y correo electrónico. El programa debe almacenar varios contactos en un arreglo, recorrerlos con un bucle y mostrar solo aquellos que tengan correo electrónico con dominio @gmail.com.
 ## Semana 5
 21. Suma de números grandes: En una competencia, los jueces necesitan verificar rápidamente la suma de varios números muy grandes. Dado un número **N**, seguido de **N números enteros**, calcula la suma total. Los números pueden ser muy grandes (hasta 10¹⁵), por lo que se recomienda utilizar tipos de datos adecuados.
     **Entrada**
