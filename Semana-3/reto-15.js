@@ -7,7 +7,7 @@
  * recorrer el carrito con un bucle, sumar los precios y mostrar el 
  * total a pagar. Como extra, si el total supera $100.000, aplique 
  * un 10% de descuento y muestre el valor final.
- * */
+ */
 
 function ejecutarReto() {
     const carrito = [];
