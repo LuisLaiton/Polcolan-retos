@@ -357,14 +357,14 @@
                 <!-- Semana 4 -->
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseFour">
                             <h2>Semana 4</h2>
                         </button>
                     </h2>
                     <!-- Resultados semana 4 -->
-                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                         <div class="accordion-body row row-cols-1 row-cols-md-3 g-4">
                             <!-- Reto 16 -->
                             <div class="col">
@@ -489,6 +489,122 @@
                                                 data-script="Semana-4/reto-20.js" disabled>
                                                 Ejecutar
                                             </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Semana 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseFive">
+                                <h2>Semana 5</h2>
+                            </button>
+                        </h2>
+                        <!-- Resultados semana 5 -->
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show">
+                            <div class="accordion-body row row-cols-1 row-cols-md-3 g-4">
+                                <!-- Reto 21 -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reto 21</h5>
+                                            <p class="card-text">Suma de números grandes: En una competencia, los jueces
+                                                necesitan verificar rápidamente la suma de varios números muy grandes.
+                                                Dado un número N, seguido de N números enteros, calcula la suma total.
+                                                Los números pueden ser muy grandes (hasta 10¹⁵), por lo que se
+                                                recomienda utilizar tipos de datos adecuados.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-primary">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-outline-primary ejecutar"
+                                                    data-script="Semana-5/reto-21.js" disabled>
+                                                    Ejecutar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Reto 22 -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reto 22</h5>
+                                            <p class="card-text">Contador de vocales: Dada una cadena de texto,
+                                                determina cuántas vocales contiene. Se consideran vocales:<br>a, e, i,
+                                                o, u<br>A, E, I, O, U
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-primary">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-outline-primary ejecutar"
+                                                    data-script="Semana-5/reto-22.js" disabled>
+                                                    Ejecutar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Reto 23 -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reto 23</h5>
+                                            <p class="card-text">Número invertido: Dado un número entero N, invierte el orden de sus dígitos. Si el número termina en ceros, estos no deben aparecer en el resultado.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-primary">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-outline-primary ejecutar"
+                                                    data-script="Semana-5/reto-23.js" disabled>
+                                                    Ejecutar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Reto 24 -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reto 24</h5>
+                                            <p class="card-text">El número más frecuente: Dada una lista de N números enteros, determina cuál es el número que aparece más veces. Si existe un empate entre varios números, imprime el menor de ellos.</p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-primary">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-outline-primary ejecutar"
+                                                    data-script="Semana-5/reto-24.js" disabled>
+                                                    Ejecutar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Reto 25 -->
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reto 25</h5>
+                                            <p class="card-text">FizzBuzz competitivo: Dado un número N, imprime los números del 1 al N aplicando las siguientes reglas:
+                                                <ul>
+                                                    <li>Si el número es múltiplo de 3, imprime `Fizz`</li>
+                                                    <li>Si el número es múltiplo de 5, imprime `Buzz`</li>
+                                                    <li>Si es múltiplo de 3 y 5, imprime `FizzBuzz`</li>
+                                                    <li>En cualquier otro caso, imprime el número</li>
+                                                </ul>
+                                                Cada resultado debe imprimirse en una línea diferente.</p>
+                                        </div>
+                                        <div class="card-footer bg-transparent border-primary">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-outline-primary ejecutar"
+                                                    data-script="Semana-4/reto-20.js" disabled>
+                                                    Ejecutar
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

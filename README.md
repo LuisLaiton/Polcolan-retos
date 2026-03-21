@@ -153,3 +153,38 @@ https://luislaiton.github.io/Polcolan-retos/
     14
     FizzBuzz
     ```
+## Semana 6
+26. Contador inteligente (React): Crear un componente que tenga un contador con tres botones: incrementar (+1), disminuir (-1) y reiniciar (0). El valor debe mostrarse en pantalla y cambiar de color según las siguientes reglas:
+    - Verde si es mayor a 10
+    - Rojo si es menor a 0
+    - Negro en cualquier otro caso
+    El estado debe actualizarse dinámicamente con cada interacción del usuario.
+
+27. Contador de vocales en tiempo real (React): Crear un input de texto que permita al usuario escribir una frase. A medida que escribe, el sistema debe mostrar:
+    - Cantidad total de caracteres
+    - Cantidad de vocales (a, e, i, o, u, sin importar mayúsculas o minúsculas)
+    La actualización debe ser inmediata usando eventos.
+
+28. Lista de números y suma total (React): Crear un input numérico que permita ingresar valores y un botón "Agregar". Cada número ingresado debe almacenarse en una lista y mostrarse en pantalla. Además, el sistema debe calcular y mostrar la suma total de todos los números ingresados.
+    Reglas:
+    - No permitir valores vacíos
+    - Convertir correctamente a número
+    - La suma debe actualizarse automáticamente
+
+29. Filtro de palabras (React): Dada la siguiente lista:
+    ["react", "javascript", "html", "css", "node"]
+    Crear un input que permita filtrar las palabras en tiempo real.
+    Reglas:
+    - Mostrar solo las palabras que contengan el texto ingresado
+    - No distinguir entre mayúsculas y minúsculas
+    - Si no hay coincidencias, mostrar "Sin resultados"
+
+30. Temporizador simple (React): Crear un temporizador con tres botones:
+    - Iniciar
+    - Pausar
+    - Reiniciar
+    El sistema debe mostrar los segundos transcurridos.
+    Reglas:
+    - Debe incrementarse cada segundo
+    - No debe generar múltiples intervalos al iniciar varias veces
+    - Reiniciar debe volver el contador a 0
